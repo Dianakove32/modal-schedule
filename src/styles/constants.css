@@ -1,0 +1,13 @@
+:root{
+    --main-text: #bcbcbe;
+    --second-text: #707073;
+    --line-color: #bbbbbb;
+    --light: #e0e0e0;
+    --colored-btn: #598ced;
+    --hover-text:#598ced;
+    --border-color:#dadada;
+    --color-black: #000;
+
+    --box-shadow: 0 4px 16px rgba(0 0 0 / 0.25);
+    --color-smoke: #f6f6f6;
+}

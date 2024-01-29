@@ -1,0 +1,48 @@
+.time-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+.middle_block{
+    padding: 0px 10px;
+    color: #ffff;
+    background: var(--border-color);
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time_block{
+    padding: 0px 10px;
+}
+input.react-datepicker-ignore-onclickoutside{
+    width: 70px;
+    border: none;
+    outline: none;
+}
+.react-datepicker__input-container input {
+    width: 70px;
+    border: none;
+    outline: none;
+    color: var(--second-text);
+    font-size: 11px;
+    background: transparent;
+    padding-left: 5px;
+}
+div .react-time-picker__wrapper{
+    border: none;
+    text-align: center;
+}
+@media (max-width: 570px) {
+    .middle_block{
+        padding: 0px 3px;
+        font-size: 10px;
+    }
+    .react-datepicker__input-container input {
+        width: 50px;
+        font-size: 9px;
+        padding-left: 2px;
+    }
+}
