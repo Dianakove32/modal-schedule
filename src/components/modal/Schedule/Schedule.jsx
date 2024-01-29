@@ -1,3 +1,4 @@
+import React  from 'react';
 import {useSchedule} from "../../../context/scheduleContext";
 import HourCounter from "../../UI/HourCounter";
 import TimeCounter from "../../UI/TimeCounter";
